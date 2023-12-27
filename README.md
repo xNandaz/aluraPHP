@@ -1,2 +1,2 @@
 # aluraPHP
-Meus primeiros códigos em PHP 
+## Meus primeiros códigos básicos em PHP 
