@@ -1,7 +1,7 @@
 <?php
 
 
-// include - copia e cola // required é obrigatório // 
+// include - copia e cola // require é obrigatório // 
 require_once 'foreach.php';
 
 function depositar(array $conta, float $valorAdepositar): array
