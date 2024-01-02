@@ -36,6 +36,8 @@ function titularComNomeMaiusculo(array &$conta){
     $conta['titular'] = strtoupper($conta['titular']);
 }
 
+//& recebe a conta em si e não a cópia
+
 function exibeConta(array $conta){
     ['titular' => $titular, 'saldo' => $saldo] = $conta;
     echo "<li>Titular: $titular . Saldo: $saldo</li>";
